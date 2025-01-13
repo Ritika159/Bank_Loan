@@ -7,7 +7,7 @@ Loan defaults pose a significant risk to financial institutions. This case study
 - Denying loans to high-risk applicants.
 - Reducing loan amounts for borderline cases.
 - Offering higher interest rates to risky applicants.
-- 
+
 By identifying patterns and strong indicators of default through Exploratory Data Analysis (EDA), this study ensures that capable borrowers are not rejected while minimizing the institution's risk exposure.
 
 🎯 Objectives
