@@ -40,6 +40,8 @@ bank_loan/
 
 │   ├── features_NaN.csv        # Dataset with NaN values handled
 
+│   ├── datasets                # file containing the dataset link
+
 
 ├── notebooks/                 # Jupyter Notebooks for analysis
 
