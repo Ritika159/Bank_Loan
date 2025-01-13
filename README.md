@@ -71,7 +71,7 @@ bank_loan/
 git clone https://github.com/Ritika159/bank_loan.git
 
 2. Open the Jupyter Notebook for analysis:
-jupyter notebook bank_loan_analysis.ipynb
+EDA_Bank_loan.ipynb
 
 3. Load the provided dataset (data/loan_data.csv) and run the analysis.
 
