@@ -24,22 +24,31 @@ By identifying patterns and strong indicators of default through Exploratory Dat
 - Equip the institution with insights to implement customized loan policies.
 
 🛠️ Tools and Libraries
+
 - Python: Core programming language used for analysis.
 - Jupyter Notebook: For interactive development and documentation.
 - Pandas, NumPy: Data wrangling and processing.
 - Matplotlib, Seaborn: Data visualization and exploration.
 
 📂 Repository Structure
-bash
-Copy code
+
 bank_loan/
+
 ├── data/                      # Raw and processed datasets
-├── notebooks/                 # Jupyter Notebooks for EDA and analysis
-├── images/                    # Visualizations and plots
+│   ├── Description.csv         # Dataset description
+│   ├── features_NaN.csv        # Dataset with NaN values handled
+
+├── notebooks/                 # Jupyter Notebooks for analysis
+│   ├── EDA_Bank_loan.ipynb     # Notebook for exploratory data analysis
+
 ├── README.md                  # Project overview and instructions
-├── requirements.txt           # Python dependencies
+
+├── Summary.pdf                # Final project summary
+
+└── requirements.txt           # Python dependencies
 
 📊 Methodology
+
 1. Data Understanding and Cleaning:
 - Load the dataset and review its structure.
 - Handle missing values, outliers, and inconsistencies.
@@ -66,6 +75,7 @@ jupyter notebook bank_loan_analysis.ipynb
 4. Load the provided dataset (data/loan_data.csv) and run the analysis.
 
 ✨ Key Insights
+
 1. Driver Variables:
 - Low income, high debt-to-income ratios, and poor credit history are strong predictors of default.
 - Borrowers with multiple open loans show a higher likelihood of default.
@@ -83,10 +93,12 @@ jupyter notebook bank_loan_analysis.ipynb
 3. Perform deeper analysis on specific loan segments (e.g., home loans, personal loans).
 
 🤝 Contributions
+
 Contributions are welcome! If you'd like to contribute:
 1. Fork the repository.
 2. Create a feature branch.
 3. Submit a pull request with detailed explanations of your changes.
 
 📜 License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
