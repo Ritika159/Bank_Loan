@@ -35,17 +35,21 @@ By identifying patterns and strong indicators of default through Exploratory Dat
 bank_loan/
 
 ├── data/                      # Raw and processed datasets
+
 │   ├── Description.csv         # Dataset description
+
 │   ├── features_NaN.csv        # Dataset with NaN values handled
 
+
 ├── notebooks/                 # Jupyter Notebooks for analysis
+
 │   ├── EDA_Bank_loan.ipynb     # Notebook for exploratory data analysis
+
 
 ├── README.md                  # Project overview and instructions
 
-├── Summary.pdf                # Final project summary
 
-└── requirements.txt           # Python dependencies
+├── Summary.pdf                # Final project summary
 
 📊 Methodology
 
@@ -66,13 +70,10 @@ bank_loan/
 1. Clone the repository:
 git clone https://github.com/Ritika159/bank_loan.git
 
-2. Install dependencies:
-pip install -r requirements.txt
-
-3. Open the Jupyter Notebook for analysis:
+2. Open the Jupyter Notebook for analysis:
 jupyter notebook bank_loan_analysis.ipynb
 
-4. Load the provided dataset (data/loan_data.csv) and run the analysis.
+3. Load the provided dataset (data/loan_data.csv) and run the analysis.
 
 ✨ Key Insights
 
@@ -88,6 +89,7 @@ jupyter notebook bank_loan_analysis.ipynb
 - Use identified driver variables to assess overall risk and optimize the loan portfolio.
 
 📈 Future Enhancements
+
 1. Develop predictive models using machine learning to classify applicants as high or low risk.
 2. Integrate real-time risk assessment dashboards for dynamic decision-making.
 3. Perform deeper analysis on specific loan segments (e.g., home loans, personal loans).
